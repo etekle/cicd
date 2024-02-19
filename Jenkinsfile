@@ -18,7 +18,7 @@ pipeline {
                                  ANYPOINT_CREDENTIALS = credentials('eyobtekle')
                                }
                    steps {
-                            bat 'mvn clean deploy -DmuleDeploy -DmuleVersion=4.4.0 -Dusername=etekle25 -Dpassword=tekled123 -DworkerType=Micro -Dworkers=1 -Dregion=us-west-2'
+                            bat 'mvn clean deploy -DmuleDeploy -DmuleVersion=4.4.0 -Dusername=etekle25 -Dpassword=Asmara01 -DworkerType=Micro -Dworkers=1 -Dregion=us-west-2'
                          }
                     }
          }
